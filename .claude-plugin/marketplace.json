@@ -1,0 +1,15 @@
+{
+  "name": "make-persona-skill",
+  "version": "0.1.0",
+  "description": "Meta-skill that generates personalized writing-style skills from your own text corpus",
+  "author": "foundy",
+  "repository": "https://github.com/foundy/make-persona-skill",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "make-persona-skill",
+      "path": "skills/make-persona-skill",
+      "description": "Analyzes your writing samples and creates a persona-{nickname} skill for drafting text in your voice"
+    }
+  ]
+}
