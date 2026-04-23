@@ -1,15 +1,18 @@
 {
-  "name": "make-persona-skill",
-  "version": "0.1.0",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "foundy-make-persona-skill",
   "description": "Meta-skill that generates personalized writing-style skills from your own text corpus",
-  "author": "foundy",
-  "repository": "https://github.com/foundy/make-persona-skill",
-  "license": "MIT",
-  "skills": [
+  "owner": {
+    "name": "foundy",
+    "email": "afoundy@gmail.com"
+  },
+  "plugins": [
     {
       "name": "make-persona-skill",
-      "path": "skills/make-persona-skill",
-      "description": "Analyzes your writing samples and creates a persona-{nickname} skill for drafting text in your voice"
+      "description": "Analyzes your writing samples and creates a persona-{nickname} skill for drafting text in your voice",
+      "source": "./skills/make-persona-skill",
+      "category": "productivity",
+      "homepage": "https://github.com/foundy/make-persona-skill"
     }
   ]
 }

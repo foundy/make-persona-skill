@@ -1,0 +1,8 @@
+{
+  "name": "make-persona-skill",
+  "description": "Meta-skill that generates a persona-{nickname} skill from your own writing corpus (Obsidian, JIRA, PR, Slack)",
+  "author": {
+    "name": "foundy",
+    "email": "afoundy@gmail.com"
+  }
+}
